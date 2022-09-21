@@ -1,0 +1,131 @@
+html {
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #F2F2F2;  
+    text-align: center;  
+}
+
+.container1 {
+    background-color:#081a29;
+    padding: 0px 0 1px 0;
+    height: 230px;
+}
+
+div.objective {
+    /* border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff; */
+    color: #ffffff;
+    font-weight: lighter;
+    word-spacing: 0.25em;
+    line-height: 1;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 10px;
+
+    margin: 10px;
+    width: 700px; 
+    height: 120px;
+    padding: 20px;
+}
+
+.container2 {
+    padding: 1px 0 0px 0;
+    background-color:#322f3a;
+    height: 150px;
+}
+
+div.details{
+    color: #ffffff;
+    font-weight: lighter;
+    word-spacing: 0.25em;
+    line-height: 1;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 10px;
+    margin: 10px;
+    width: 500px; 
+    height: 120px;
+    padding: 20px;
+    position: relative;
+    bottom:20px;
+}
+
+div.details2{
+    color: #ffffff;
+    font-weight: lighter;
+    word-spacing: 0.25em;
+    line-height: 1;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 10px;
+    margin: 10px;
+    width: 500px; 
+    height: 120px;
+    padding: 20px;
+    position: relative;
+    bottom:190px;
+    left: 700px;
+}
+
+.container3 {
+    padding: 1px 0 100px 0;
+    background-color:#e6e8e2;
+}
+
+
+.container3 label{
+    color: lightseagreen;
+    text-decoration: underline;
+}
+
+#position{
+    color:lightseagreen;
+}
+#name{
+    font-size: 24px;
+}
+
+.circle-image{
+    width: 140px;
+    height: 140px;
+    background-image: url('stibs.JPG');
+    background-size: cover;
+    display: block;
+    border-radius:50%;
+    position:relative;
+    left: 850px;
+    bottom: 140px;
+}
+
+.education{
+    color: #000000;
+    font-weight: lighter;
+    word-spacing: 0.25em;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 10px;
+    margin: 10px;
+    width: 500px; 
+    height: 120px;
+    padding: 20px;
+    position: relative;
+ /* bottom:20px; */
+}
+
+.skills{
+    position: relative;
+    bottom:150px;
+    left: 510px;
+    width: 500px;
+    height: 150px;
+}
+
+button{
+    border: 1px solid #466995;
+    margin: 10px;
+    display: inline-block;
+
+}
