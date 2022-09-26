@@ -1,9 +1,31 @@
-button{
-    height: 50px;
-    width: 100px;
-
+.button-width{
+    width: 120px !important; 
+    height: 60px !important;
+    margin: 3px;
 }
-
 h3, h5{
     color: lightseagreen;
+}
+
+p{
+    text-align: justify;
+}
+@media (max-width: 988px) {
+    .button-width{
+        width: 90px !important; 
+        height: 40px !important;
+        margin: 3px;
+        font-size: 11px !important;
+    }
+    
+}
+
+@media (max-width: 762px) {
+    h1{
+        text-align: center;
+    }
+    .moveCenter{
+        text-align: center;
+    }
+    
 }
